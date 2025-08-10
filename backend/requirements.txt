@@ -1,0 +1,23 @@
+# Core API
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+# Database & ORM
+SQLAlchemy
+psycopg[binary]
+alembic
+
+# Auth & Security
+passlib[bcrypt]
+python-jose[cryptography]
+
+# HTTP client (for MCP calls)
+httpx
+
+# Testing
+pytest
+pytest-asyncio
+email-validator
+pydantic-settings
